@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { width:1024px; height:1024px; overflow:hidden; background:#f6f1e5;
+  font-family:'Liberation Sans',sans-serif; color:#141310; }
+.page { padding:16px 34px 8px 34px; height:1024px; display:flex; flex-direction:column; }
+.rule-top { border-top:5px solid #141310; border-bottom:1.5px solid #141310; height:9px; }
+.masthead { text-align:center; padding-top:6px; }
+.masthead h1 { font-family:'Liberation Serif',serif; font-size:46px; letter-spacing:6px; font-weight:700; }
+.tagline { font-size:16px; letter-spacing:3.5px; text-transform:uppercase; color:#5a5344; margin-top:2px; }
+.dateband { margin-top:8px; background:#a4161a; color:#fff; display:flex;
+  justify-content:space-between; align-items:center; padding:8px 18px; }
+.dateband .date { font-size:27px; font-weight:700; letter-spacing:2px; }
+.dateband .side { font-size:16px; letter-spacing:2px; text-transform:uppercase; }
+.lead { border-bottom:3px solid #141310; padding:10px 2px 9px 2px; }
+.chip { display:inline-block; background:#141310; color:#f6f1e5; font-size:15px; font-weight:700;
+  letter-spacing:2px; padding:4px 10px; text-transform:uppercase; }
+.chip.red { background:#a4161a; }
+.lead h2 { font-family:'Liberation Serif',serif; font-size:36px; line-height:1.1; margin-top:7px; }
+.lead p { font-size:19px; line-height:1.3; margin-top:6px; color:#26241d; }
+.lead .place { color:#a4161a; font-weight:700; }
+.grid { display:grid; grid-template-columns:1fr 1fr; column-gap:26px; flex:1; }
+.card { border-bottom:1.5px solid #b9b09a; padding:6px 0 6px 0; }
+.card h3 { font-family:'Liberation Serif',serif; font-size:22.5px; line-height:1.12; margin-top:5px; }
+.card p { font-size:16.5px; line-height:1.26; margin-top:4px; color:#2b2921; }
+.briefs { background:#141310; color:#f6f1e5; margin-top:9px; padding:9px 18px 8px 18px; }
+.briefs h4 { font-size:15px; letter-spacing:3px; color:#e8b64c; margin-bottom:7px; }
+.briefs .bgrid { display:grid; grid-template-columns:1fr 1fr; column-gap:26px; row-gap:5px; }
+.brief { font-size:14px; line-height:1.24; }
+.brief b { color:#e8b64c; letter-spacing:1px; font-size:14px; }
+.src { margin-top:7px; font-size:12.5px; color:#a49a83; letter-spacing:0.5px; }
+.footer { margin-top:8px; border-top:1.5px solid #141310; padding-top:7px;
+  font-size:14.5px; color:#5a5344; display:flex; justify-content:space-between; }
+</style></head>
+<body><div class="page">
+  <div class="rule-top"></div>
+  <div class="masthead"><h1>THE WORLD TODAY</h1>
+    <div class="tagline">One day of world news, in one picture</div></div>
+  <div class="dateband"><div class="date">THURSDAY · 26 NOVEMBER 2026</div>
+    <div class="side">One day · One picture</div></div>
+  <div class="lead"><span class="chip red">WALL STREET</span>
+    <h2>Nasdaq plunges 4.35% in worst November rout since 2008</h2>
+    <p><span class="place">NEW YORK —</span> Wall Street's sell-off deepened on Wednesday: the Nasdaq tumbled as much as 4.35% intraday and the Dow Jones slid 1,039 points, putting the Nasdaq and the S&P 500 on course for their worst November since 2008. The VIX fear gauge jumped to about 32.</p></div>
+  <div class="grid"><div class="card"><span class="chip">US INFLATION</span><h3>Core US inflation hits 3.3%, the highest in three years</h3><p>The Fed's preferred inflation gauge, core PCE, rose 3.3% in the year to October — above forecasts and the highest since November 2023. Markets now bet the Fed will raise rates by 25 basis points in December.</p></div><div class="card"><span class="chip">CHIP STOCKS</span><h3>Nvidia slides nearly 9% as AI stocks lead the rout</h3><p>Nvidia fell as much as 8.9% to a low of $141.22 and Micron dropped 10% as chipmakers bore the brunt of the sell-off; the Philadelphia semiconductor index lost nearly 7%.</p></div><div class="card"><span class="chip">BITCOIN</span><h3>Bitcoin dips to $57,209, then claws back $58,000</h3><p>Bitcoin touched $57,209 before recovering above $58,000, with about $511 million of crypto positions liquidated in 24 hours. The Fear & Greed Index sat at 13 — a 13th straight day of extreme fear.</p></div><div class="card"><span class="chip">GOLD</span><h3>Gold breaks below $3,500 as havens fail to hold</h3><p>Spot gold slid to $3,469.30 an ounce, a 14-month low and some 37% below January's record, as the rush for safety failed to lift bullion. Silver fell below $40 for the first time since August 2025.</p></div><div class="card"><span class="chip">CHINA · TARIFFS</span><h3>Beijing calls US overcapacity claim a 'false premise'</h3><p>China's foreign ministry dismissed Washington's Section 301 tariff case as political manipulation built on a 'false premise' of industrial overcapacity, urging talks on an equal footing while naming no countermeasures.</p></div><div class="card"><span class="chip">US HOUSING</span><h3>New-home sales jump 14% — within a huge margin of error</h3><p>US new-home sales rose to an annual pace of 701,000 in October, beating forecasts — though the Census Bureau put the margin of error at ±22.6 points, and the entire gain came from the South.</p></div></div>
+  <div class="briefs"><h4>ALSO TODAY</h4><div class="bgrid"><div class="brief"><b>FED WATCH —</b> The Fed's Beige Book lands at 03:00 Beijing time — the last big read on the US economy before the December 9 meeting.</div><div class="brief"><b>HOLIDAY HOURS —</b> US markets are closed Thursday for Thanksgiving and shut early on Friday; thin holiday liquidity may amplify moves.</div><div class="brief"><b>OIL —</b> WTI crude rose 1.9% to $83.65 a barrel on supply worries after Houthi attacks on a Saudi refinery.</div><div class="brief"><b>CRYPTO FLOWS —</b> Spot bitcoin ETFs bled $231 million on Tuesday, a sixth straight day of outflows; November's total nears $4.94 billion.</div></div><div class="src">Compiled from agency reports — Reuters · CoinDesk · CoinGlass · Kitco · US BEA · CME FedWatch · 26 · 11 · 2026</div></div>
+
+</div></body></html>
